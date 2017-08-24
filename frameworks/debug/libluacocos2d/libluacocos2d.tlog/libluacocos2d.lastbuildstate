@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v120_xp:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+Debug|Win32|E:\Quick-Cocos2dx-Community_3.6_release_190dccc\Quick-Cocos2dx-Community\quick\templates\lua-template-quick\frameworks\runtime-src\proj.win32\|
