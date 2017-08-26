@@ -101,6 +101,8 @@ bool AppDelegate::applicationDidFinishLaunching()
     //register_custom_function(stack->getLuaState());
     
     //FileUtils::getInstance()->setResourceEncryptKeyAndSign("test", "XXTEA");
+
+    FileUtils::getInstance():addSearchPath("res"); //添加资源搜索路径
 #if 0
     // use luajit bytecode package
     stack->setXXTEAKeyAndSign("2dxLua", "XXTEA");

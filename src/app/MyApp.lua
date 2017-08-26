@@ -2,6 +2,9 @@ require("config")
 require("cocos.init")
 require("framework.init")
 
+require("app.macro.GlobalEnum")
+require("app.mgr.SceneMgr")
+
 local MyApp = class("MyApp", cc.mvc.AppBase)
 
 function MyApp:ctor()
@@ -13,7 +16,7 @@ function MyApp:init()
 end
 
 function MyApp:run()		
-	display.replaceScene(require("app.MainScene").new(), "fade", 0.6, display.COLOR_WHITE)
+	SceneMgr:showScene(sgll.sceneType.town)
 end
 
 return MyApp
